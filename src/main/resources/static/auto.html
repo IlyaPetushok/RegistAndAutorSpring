@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/auto.css">
+    <title>Autorization</title>>
+</head>
+
+<form>
+    <div class="panel_top">
+        <li>
+            <a href="/email" class="panel.top">Регистрация</a>
+        </li>
+    </div>
+    <div class="modal">
+        <h1 class="h1" align="center">Вход</h1>
+        <div class="otstup"></div>
+
+        <input class="center textarea_disign" type="text" name="login" placeholder="login" required >
+
+        <div class="otstup"></div>
+
+        <input class="center textarea_disign" type="password" name="password" id="password" placeholder="password" required>
+
+        <div class="otstup"></div>
+
+        <button class="center button_disign" type="submit" formaction="/auto" formmethod="post" name="action" value="SUBMIT">Вход</button>
+
+    </div>
+    <p ></p>
+</form>

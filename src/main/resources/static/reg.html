@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reg.css">
+    <title>Registration</title>>
+</head>
+
+<form action="/reg" method="post" style="text-align:left;">
+    <div class="modal">
+        <h1 class="h1" align="center">Регистрация</h1>
+
+        <div class="otstup"></div>
+        <input class="textarea_disign" type="text" name="login" placeholder="login" required>
+
+
+        <div class="otstup"></div>
+        <input class="textarea_disign" type="password" name="password"
+               placeholder="password"  id="password" required>
+
+        <div class="otstup"></div>
+        <input class="textarea_disign" type="password" name="confirmPassword" id="confirmPassword"
+               placeholder="confirm password" required>
+
+<!--        <div class="otstup"></div>-->
+<!--        <input class="textarea_disign" type="email" name="email"-->
+<!--               placeholder="email"  id="email" >-->
+
+        <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+
+        <div class="g-recaptcha"
+             data-sitekey="6LeskAEdAAAAAPXE-Wf26_9tGa8bjRrtZMPhQcOo"></div>
+<!---->
+        <div class="otstup"></div>
+            <button class="center button_disign" type="submit">Зарегестрироваться</button>
+        </div>
+    <p ></p>
+
+
+</form>
